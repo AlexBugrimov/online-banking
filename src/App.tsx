@@ -1,9 +1,10 @@
 import React from 'react';
+import Sidebar from "./components/Sidebar";
 
 function App() {
   return (
-    <div className="App">
-
+    <div className="w-full min-h-screen bg-white">
+      <Sidebar/>
     </div>
   );
 }
