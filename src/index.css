@@ -23,3 +23,7 @@
     content: '';
     @apply bg-cyan-300 h-32 w-32 absolute -right-8 -top-8 rounded-full;
 }
+
+.content-left::-webkit-scrollbar {
+    display: none;
+}

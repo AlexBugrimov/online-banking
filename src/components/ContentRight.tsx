@@ -5,7 +5,7 @@ import Avatar from '../assets/avatar.png'
 import Card from "./Card";
 import Transactions from "./Transactions";
 
-const RightContent = () => {
+const ContentRight = () => {
   return <section className='w-96 bg-gray-100 rounded-tl-70px overflow-hidden px-8'>
     <div className='pt-12 flex justify-end space-x-9 items-center'>
       <GrNotification size={20}/>
@@ -20,4 +20,4 @@ const RightContent = () => {
   </section>
 }
 
-export default RightContent
+export default ContentRight

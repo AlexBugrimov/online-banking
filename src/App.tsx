@@ -1,13 +1,14 @@
 import React from 'react'
 import Sidebar from './components/Sidebar'
-import RightContent from "./components/RightContent";
+import ContentRight from "./components/ContentRight";
+import ContentLeft from "./components/ContentLeft";
 
 const App = () => {
   return (
     <div className='w-full min-h-screen bg-white flex flex-row'>
       <Sidebar/>
-      <section className='flex-1 bg-white'>Content Left</section>
-      <RightContent/>
+      <ContentLeft/>
+      <ContentRight/>
     </div>
   );
 }
